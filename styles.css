@@ -81,7 +81,7 @@ color: #07025B;
 }
 
 .scoreLineNumbers {
-    color: #6B6C6F;
+    
     font-size: 14px;
     padding-top: 5px;
 }
@@ -101,3 +101,69 @@ color: #07025B;
     position: relative;
     top: 5px;
 }
+
+
+.lightGrey {
+    color: #6B6C6F;
+}
+
+.littleNumber {
+    font-weight: 500;
+    font-size: .8em;
+position: relative;
+top: -52px;
+left: 58px;
+}
+
+.greenTriangle {
+    position: relative;
+    top: -65px;
+    left: 76px;
+}
+
+.borderOnSmall {
+    border: 2px solid #D7DEE4;
+    border-radius: 6px;
+    padding: 20px 0px 20px 20px;
+}
+
+.hiddenOnSmSize {
+    display: none;
+}
+
+.listContainer {
+    background-color: #F5FAFF;
+    border: 1px solid #85A2CF;
+}
+
+.bankNum {
+    font-size: .8em;
+}
+
+.ptsNum {
+    font-size: 1.2em;
+    color: #110630;
+    font-weight: 700;
+}
+
+.list-group-item {
+    background-color: #F5FAFF;
+    border: none;
+}
+
+@media (min-width: 992px) { 
+    .actionsContainer {
+        border: 1px solid #D7DEE4;
+    border-radius: 6px;
+    }
+
+    .borderOnSmall {
+        border: none;
+        padding: 0;
+    }
+
+    .hiddenOnSmSize {
+        display: block;
+    }
+
+ }
