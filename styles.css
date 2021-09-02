@@ -61,9 +61,9 @@ color: #07025B;
 .point {
     background-color: #F1C531;
     border: 5px solid white;
-    border-radius: 50%;
+    border-radius: 6px;
     height: 28px;
-    width: 28px;
+    width: 20px;
     position: relative;
     top: -48px;
     left: 63%;
@@ -132,29 +132,61 @@ left: 58px;
 }
 
 .listContainer {
-    background-color: #F5FAFF;
+   
     border: 1px solid #85A2CF;
+    border-radius: 6px;
 }
 
 .bankNum {
-    font-size: .8em;
+    
+    padding-left: 0px;
+   
 }
+
 
 .ptsNum {
     font-size: 1.2em;
     color: #110630;
     font-weight: 700;
+    position: relative;
+    top: 2px;
+    
 }
 
+.ptsDiv {
+    display: inline;
+    margin-right: 70px;
+}
 .list-group-item {
     background-color: #F5FAFF;
     border: none;
 }
 
+
+.companyNameSpan {
+     margin-right: 70px;
+}
+
+.expExtra {
+    margin-left: 10px;
+}
+
+.listHeaderItem {
+    background-color: #F5FAFF;
+    
+}
+
+.topCol {
+    border: 1px solid #D7DEE4;
+    border-radius: 6px;
+}
+
+
 @media (min-width: 992px) { 
     .actionsContainer {
         border: 1px solid #D7DEE4;
     border-radius: 6px;
+    
     }
 
     .borderOnSmall {
@@ -166,4 +198,46 @@ left: 58px;
         display: block;
     }
 
+    .bankNum {
+        padding-left: 50px;
+        font-size: .8em;
+        
+    }
+
+    .point {
+        border-radius: 50%;
+        width: 28px;
+    }
+
+    .ptsNumCol {
+        padding-left: 100px !important;
+    }
+
+    .hiddenOnLg {
+        display: none;
+    }
+
+    .listContainerItem {
+        border: none;
+    }
+   
+    .topCol {
+        border: none;
+    }
+
+    .listContainer {
+        background-color: #F5FAFF;
+        border-radius: 0px;
+        border-bottom: none;
+    }
+
+    .lastItem {
+        border-bottom: 1px solid #85A2CF;
+    }
+
+    .footer {
+        margin: auto;
+        width: 78%;
+    }
+    
  }
